@@ -4,10 +4,10 @@ container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11'
 });
 
-addimage(error, image, coord1, coord2, name) {
+addimage(error, image, coord1, coord2, name, sourcename) {
 if (error) throw error;
 map.addImage(name, image);
-map.addSource('point', {
+map.addSource(sourcename, {
 'type': 'geojson',
 'data': {
 'type': 'FeatureCollection',
@@ -57,9 +57,9 @@ map.on('load', function() {
 // 		      }
 // 		      });
 map.loadImage(
-'images/patscat.jpg', addimage(image, 0, 0, 'cat'));
+'images/patscat.jpg', addimage(image, 0, 0, 'cat', 'point'));
 map.loadImage(
- 'images/patscat.jpg', addimage(image, 12.550343, 55.665957, 'cat2'));
+ 'images/patscat.jpg', addimage(image, 12.550343, 55.665957, 'cat2', 'point2'));
 map.addLayer({
 'id': 'points',
 'type': 'symbol',
@@ -72,7 +72,7 @@ map.addLayer({
 map.addLayer({
 'id': 'points',
 'type': 'symbol',
-'source': 'point',
+'source': 'point2',
 'layout': {
 'icon-image': 'cat2',
 'icon-size': 0.2
