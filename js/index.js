@@ -58,6 +58,8 @@ map.on('load', function() {
 // 		      });
 map.loadImage(
 'images/patscat.jpg', addimage(image, 0, 0, 'cat'));
+map.loadImage(
+ 'images/patscat.jpg', addimage(image, 50, 50, 'cat2'));
 map.addLayer({
 'id': 'points',
 'type': 'symbol',
@@ -67,6 +69,15 @@ map.addLayer({
 'icon-size': 0.1
 }
 });
+map.addLayer({
+'id': 'points',
+'type': 'symbol',
+'source': 'point',
+'layout': {
+'icon-image': 'cat2',
+'icon-size': 0.2
+}
+}); 
 }
 );
 });
