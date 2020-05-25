@@ -4,7 +4,7 @@ var map = new mapboxgl.Map({
 	style: 'mapbox://styles/mapbox/streets-v11'
 });
 
-function addimage(filename, coord1, coord2, name, sourcename) {
+function addimage(filename, coord1, coord2, name, sourcename, id) {
 	map.loadImage(filename, function(error, image) {
 		if (error) throw error;
 		map.addImage(name, image);
@@ -25,22 +25,22 @@ function addimage(filename, coord1, coord2, name, sourcename) {
 				]
 			}
 		});
-	});
-	map.addLayer(
-	{
-		'id': 'points',
-		'type': 'symbol',
-		'source': sourcename,
-		'layout': 
+		map.addLayer(
 		{
-			'icon-image': name,
-			'icon-size': 0.1
-		}
+			'id': id,
+			'type': 'symbol',
+			'source': sourcename,
+			'layout': 
+			{
+				'icon-image': name,
+				'icon-size': 0.1
+			}
+		});
 	});
-
+	
 }
  
 map.on('load', function() {
- addimage('../images/patscat.jpg', 0, 0, 'cat', 'point1');
- addimage('../images/patscat.jpg', 12.550343, 55.665957, 'copenhagencat', 'point2');
+ addimage('../images/patscat.jpg', 0, 0, 'cat', 'point', 'points');
+ addimage('../images/patscat.jpg', 12.550343, 55.665957, 'copenhagencat', 'point2', 'points2');
 });
