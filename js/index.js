@@ -3,6 +3,25 @@ var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11'
 });
+
+addimage(error, image, coord1, coord2, name) {
+if (error) throw error;
+map.addImage(name, image);
+map.addSource('point', {
+'type': 'geojson',
+'data': {
+'type': 'FeatureCollection',
+'features': [
+{
+'type': 'Feature',
+'geometry': {
+'type': 'Point',
+'coordinates': [coord1, coord2]
+}
+}
+]
+}
+}
  
 map.on('load', function() {
 // for (picture in 'images/') {
@@ -38,25 +57,7 @@ map.on('load', function() {
 // 		      }
 // 		      });
 map.loadImage(
-'images/patscat.jpg',
-function(error, image) {
-if (error) throw error;
-map.addImage('cat', image);
-map.addSource('point', {
-'type': 'geojson',
-'data': {
-'type': 'FeatureCollection',
-'features': [
-{
-'type': 'Feature',
-'geometry': {
-'type': 'Point',
-'coordinates': [0, 0]
-}
-}
-]
-}
-});
+'images/patscat.jpg', addimage(image, 0, 0, 'cat'));
 map.addLayer({
 'id': 'points',
 'type': 'symbol',
