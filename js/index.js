@@ -39,6 +39,6 @@ map.addLayer({
 }
  
 map.on('load', function() {
- addimage('images/patscat.jpg', 0, 0, 'cat', 'point1');
- addimage('images/patscat.jpg', 12.550343, 55.665957, 'copenhagencat', 'point2');
+ addimage('../images/patscat.jpg', 0, 0, 'cat', 'point1');
+ addimage('../images/patscat.jpg', 12.550343, 55.665957, 'copenhagencat', 'point2');
 });
