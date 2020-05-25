@@ -59,7 +59,7 @@ map.on('load', function() {
 map.loadImage(
 'images/patscat.jpg', addimage(image, 0, 0, 'cat'));
 map.loadImage(
- 'images/patscat.jpg', addimage(image, 50, 50, 'cat2'));
+ 'images/patscat.jpg', addimage(image, 12.550343, 55.665957, 'cat2'));
 map.addLayer({
 'id': 'points',
 'type': 'symbol',
