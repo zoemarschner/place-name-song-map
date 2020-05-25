@@ -4,7 +4,7 @@ var map = new mapboxgl.Map({
 	style: 'mapbox://styles/mapbox/streets-v11'
 });
 
-addimage(filename, coord1, coord2, name, sourcename) {
+function addimage(filename, coord1, coord2, name, sourcename) {
 	map.loadImage(filename, function(error, image) {
 		if (error) throw error;
 		map.addImage(name, image);
@@ -24,7 +24,7 @@ addimage(filename, coord1, coord2, name, sourcename) {
 					}
 				]
 			}
-		}
+		});
 	});
 	map.addLayer(
 	{
