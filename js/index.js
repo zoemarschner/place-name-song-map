@@ -41,7 +41,7 @@ function addimage(filename, coord1, coord2, name, sourcename, id) {
 	
 }
 
-d3.csv("../getting_album_covers/song_data.csv").then(function(data) {
+d3.csv("getting_album_covers/song_data.csv").then(function(data) {
 	console.log(data);
 });
  
