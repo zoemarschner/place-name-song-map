@@ -46,7 +46,7 @@ map.on('load', function() {
 	console.log(data)
 	data.forEach(function(thingy) {
 		console.log(thingy)
-		addimage(thingy.Image, thingy.Lon, thingy.Lat, thingy.Song+thingy.Artist, thingy.Song+thingy.Artist, thingy.Song+thingy.Artist); 
+		addimage(thingy.Image, thingy.Lon, thingy.Lat, thingy.Song+thingy.Artist+thingy.Lat, thingy.Song+thingy.Artist+thingy.Lat, thingy.Song+thingy.Artist+thingy.Lat); 
 	});
 });
 //  addimage('https://upload.wikimedia.org/wikipedia/commons/7/7c/201408_cat.png', 0, 0, 'cat', 'point', 'points');
