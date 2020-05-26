@@ -40,6 +40,10 @@ function addimage(filename, coord1, coord2, name, sourcename, id) {
 	});
 	
 }
+
+d3.csv("../getting_album_covers/song_data.csv").then(function(data) {
+	console.log(data);
+});
  
 map.on('load', function() {
  addimage('https://upload.wikimedia.org/wikipedia/commons/7/7c/201408_cat.png', 0, 0, 'cat', 'point', 'points');
