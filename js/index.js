@@ -25,6 +25,7 @@ function addimage(filename, coord1, coord2, name, sourcename, id) {
 				]
 			}
 		});
+		
 		map.addLayer(
 		{
 			'id': id,

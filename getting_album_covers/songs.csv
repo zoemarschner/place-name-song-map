@@ -1,114 +1,121 @@
-Song,Artist,Place,State
-Alaska,Maggie Rogers,Alaska,AK
-Arizona,Frances Cone,Arizona,AZ
-Arizona ,Corn on My Dinner Plate,Arizona,AZ
-Sedona,Houndmouth,"Sedona, AZ",AZ
-California,Drinker,California,CA
-California   ,Dessert,California,CA
-California Dreamin',Joseph,California,CA
-California English,Vampire Weekend,California,CA
-California Song,Patrick James,California,CA
-Cold in California,Ashe,California,CA
-Hotel California,Eagles,California,CA
-It's a Longer Road to California Than I Thought,The Wind and The Wave,California,CA
-Kalifornia,Modern Pleasure,California,CA
-California,i said yes,California,CA
-Holiday in Danville,Hunter Hunted,"Danville, CA",CA
-Hollywood,"RAC, Penguin Prison","Hollywood, CA",CA
-Hollywood Nights,Bob Seger,"Hollywood, CA",CA
-232 Metro Line,Sophia Viggiano,LA,CA
-Pasadena,Young Mister,"Pasadena, CA",CA
-San Francisco,"YOG$, Caroline Pennell","San Francisco, CA",CA
-Carolina,Young Mister,Carolina,Carolina
-Carolina,Bedon,North carolina/south carolina??,Carolina
-Left for Denver,The Lumineers,"Denver, CO",CO
-Atlanta Girls,Trash Panda,"atlanta, GA",GA
-Georgia,Lydia,GA,GA
-Marietta,Upstate,Georgia,GA
-Savannah,Relient K,"Savannah, GA",GA
-Driving to Hawaii,Summer Salt,Hawaii,HI
-Coeur d'Alene,Tyson Motsenbocker,"Coeur d'Alene, ID",ID
-Couer D'Alene,The Head and the Heart,"Coeur d'Alene, ID",ID
-Chicago,Flipturn,"Chicago, IL",IL
-Chicago,Sufjan Stevens,"chicago, IL",IL
-Chicago,Flipturn,"Chicago, IL",IL
-Goodnight Chicago,Rainbow Kitten Surprise,"Chicago, IL",IL
-I Woke up in Chicago,Former Belle,"Chicago, IL",IL
-Pulaski at Night,Andrew Bird,"chicago, IL",IL
-Wilson State Park,Brave Town,"Wilson State Park, KS",KS
-Halfway to Hardinsburg,Houndmouth,"Hardinsburg, KY",KY
-New Orleans,Parachute,"New Orleans, LA",LA
-Boston,Augustana,"Boston, MA",MA
-Ladies of Cambridge,Vampire Weekend,"Cambridge, MA",MA
-Cape Cod Kwassa Kwassa,Vampire Weekend,"Cape Cod, MA",MA
-Massachusetts,Handsome Ghost,Massachusetts,MA
-Massachusetts,Ra Ra Riot,Massachusetts,MA
-Walden Pond,Atta Boy,Walden Pond,MA
-Fast Times in Minnesota,jeremy messersmith,Minnesota,MN
-Montana,Youth Lagoon,Montana,MT
-Santa Fe,Autoheart,"Santa Fe, NM",NM
-Vegas Girl,Conor Maynard,"Las Vegas, NV",NV
-"Jerusalem, New York, Berlin",Vampire Weekend,All three ha,NY
-Brooklyn,Patrick Droney,"Brooklyn, NY",NY
-Brooklyn Nights,AJ Smith,"Brooklyn, NY",NY
-Hudson,Vampire Weekend,Hudson river,NY
-Ithaca,Beatenberg,"Ithaca, NY & Ithaca, Greece",NY
-Cornelia Street,Taylor Swift,"New York, NY",NY
-Ever Since New York,Harry Styles,"New York, NY",NY
-Harlem,New Politics,"New York, NY",NY
-Long New York,Stolen Jars,"New York, NY",NY
-Manhattan,Sara Bareilles,"New York, NY",NY
-Moving to New York,The Wombats,"New York, NY",NY
-NEW DORP. NEW YORK,"SBTRKT, Ezra Koenig","New York, NY",NY
-New York,Urban Cone,"New York, NY",NY
-"New York, New York II",Glassio,"New York, NY",NY
-NYC Girl,The Orion Experience,"New York, NY",NY
-The Only Living Boy in New York,Simon & Garfunkel,"New York, NY",NY
-Washington Square Park,Tor Miller,"New York, NY",NY
-Welcome to New York,Taylor Swift,"New York, NY",NY
-Ohio,The Hussey Brothers,Ohio,OH
-Ohio,Ginger root,ohio,OH
-Ohio,King Princess,ohio,OH
-Graceland,Paul Simon,"Memphis, TN",TN
-Nashville,David Mead,"Nashville, TN",TN
-Houston Dubai,Vampire Weekend,"Houston, TX and Dubai, UAE",TX
-Seattle,Jason Walker,"Seattle, WA",WA
-Yellowstone,S. Carey,"Yellowstone, WY",WY
-America,Simon & Garfunkel,America,
-Amsterdam,Gregory Alan Isakov,"Amsterdam, Netherlands",
-Australia,The Shins,Australia,
-Brazil,Declan McKenna,Brazil,
-Bruxelles,Boulevard des Airs,"Brussels, Belgium",
-Pompeii,Bastille,"by Naples, Italy",
-Cape to Rio,Beatenberg,cape town + rio,
-Cavendish Square,Beatenberg,"Cavendish Square, London, UK",
-Visions of China,The Lumineers,China,
-Colombia,Local Natives,Colombia,
-Lebanon,J.S. Ondara,country,
-Gibraltar,Beirut,Gibraltar,
-Mykonos,Fleet Foxes,Greece,
-Hamburg Song,Keane,"Hamburg, Germany",
-Budapest,George Ezra,Hungary,
-Ipanema,Still Woozy,In Rio,
-Lebanon,J.S. Ondara,Lebanon,
-Cemeteries of London,Coldplay,"London, England",
-London in the Spring,Passenger,"London, UK",
-Manchester,Kishi Bashi,"Manchester, UK",
-Messina,Modern Pleasure,"Messina, Sicily",
-Montreal,Wylen,"Montreal, Canada",
-Morocco,Moon Taxi,Morocco,
-Moscow,Autoheart,"Moscow, Russia",
-Nantes,Beirut,"Nantes, France",
-Norway,The Paper Tigers,Norway,
-Norway,The Brummies,Norway,
-Okinawa,Sure Sure,"Okinawa, Japan",
-Oslo,De Joie,"Oslo, Norway",
-Oxford Town,Bob Dylan,"Oxford, UK",
-Blue Ridge Mountains,Fleet Foxes,Part of the appalachians,
-Rio,MIKA,"Rio, Brazil",
-Rio ,orangutang,"Rio, Brazil",
-King of Spain,The Tallest Man on Earth,Spain,
-Sierra Leone,Frank Ocean,the country,
-The Mariana,Everything Everything,The Mariana Trench,
-Tropic of Cancer,Minor Poet,Tropic of Cancer,
-Vienna,Billy Joel,"Vienna, Austria",
+Song,Artist,Place
+232 Metro Line,Sophia Viggiano,"Manhattan Beach, California"
+Alaska,Maggie Rogers,Alaska
+Alewife,Clairo,"Alewife, Massachusetts"
+America,Simon & Garfunkel,United States of America
+Amsterdam,Gregory Alan Isakov,"Amsterdam, Netherlands"
+Arizona,Frances Cone,Arizona
+Arizona ,Corn on My Dinner Plate,Arizona
+Atlanta Girls,Trash Panda,"Atlanta, Georgia"
+Australia,The Shins,Australia
+Blue Ridge June,Sam Burchfield,Blue ridge mountains
+Blue Ridge Mountains,Fleet Foxes,Blue ridge mountains
+Boston,Augustana,"Boston, Massachusetts"
+Brazil,Declan McKenna,Brazil
+Brooklyn,Patrick Droney,"Brooklyn, New York"
+Brooklyn Nights,AJ Smith,"Brooklyn, New York"
+Bruxelles,Boulevard des Airs,"Brussels, Belgium"
+Budapest,George Ezra,"Budapest, Hungary"
+California,Drinker,California
+California,i said yes,California
+California   ,Dessert,California
+California Dreamin',Joseph,California
+California English,Vampire Weekend,California
+California Song,Patrick James,California
+Cape Cod Kwassa Kwassa,Vampire Weekend,"Cape Cod, Massachusetts"
+Cape to Rio,Beatenberg,"Rio, Brazil"
+Cape to Rio,Beatenberg,"Cape Town, South Africa"
+Carolina,Young Mister,North Carolina
+Carolina,Bedon,North Carolina
+Cavendish Square,Beatenberg,"Cavendish Square, London, UK"
+Cemeteries of London,Coldplay,"Cemetery London, England"
+Chicago,Flipturn,"Chicago, Illinois"
+Chicago,Sufjan Stevens,"Chicago, Illinois"
+Chicago,Flipturn,"Chicago, Illinois"
+Coeur d'Alene,Tyson Motsenbocker,"Coeur d'Alene, Idaho"
+Cold in California,Ashe,California
+Colombia,Local Natives,Colombia
+Cornelia Street,Taylor Swift,"Cornelia Street New York, New York"
+Couer D'Alene,The Head and the Heart,"Coeur d'Alene, Idaho"
+Driving to Hawaii,Summer Salt,Hawaii
+Ever Since New York,Harry Styles,"New York, New York"
+Fast Times in Minnesota,jeremy messersmith,Minnesota
+Georgia,Lydia,"Georgia, USA"
+Gibraltar,Beirut,Gibraltar
+Goodnight Chicago,Rainbow Kitten Surprise,"Chicago, Illinois"
+Graceland,Paul Simon,"Memphis, Tenessee"
+Halfway to Hardinsburg,Houndmouth,"Hardinsburg, Kentucky"
+Hamburg Song,Keane,"Hamburg, Germany"
+Harlem,New Politics,"Harlem, New York City"
+Holiday in Danville,Hunter Hunted,"Danville, California"
+Hollywood,"RAC, Penguin Prison","Hollywood, California"
+Hollywood Nights,Bob Seger,"Hollywood, California"
+Hotel California,Eagles,California
+Houston Dubai,Vampire Weekend,"Houston, Texas"
+Houston Dubai,Vampire Weekend,"Dubai, United Arab Emirates"
+Hudson,Vampire Weekend,Hudson River
+I Woke up in Chicago,Former Belle,"Chicago, Illinois"
+Ipanema,Still Woozy,"Ipanema, Rio, Brazil"
+It's a Longer Road to California Than I Thought,The Wind and The Wave,California
+Ithaca,Beatenberg,"Ithaca, Greece"
+Ithaca,Beatenberg,"Ithaca, New York"
+"Jerusalem, New York, Berlin",Vampire Weekend,"New York, New York"
+"Jerusalem, New York, Berlin",Vampire Weekend,"Berlin, Germany"
+"Jerusalem, New York, Berlin",Vampire Weekend,"Jerusalem, Israel"
+Kalifornia,Modern Pleasure,California
+King of Spain,The Tallest Man on Earth,Spain
+Ladies of Cambridge,Vampire Weekend,"Cambridge, Massachusetts"
+Lebanon,J.S. Ondara,Lebanon
+Lebanon,J.S. Ondara,Lebanon
+Left for Denver,The Lumineers,"Denver, Colorado"
+London in the Spring,Passenger,"London, England"
+Long New York,Stolen Jars,"New York, New York"
+Manchester,Kishi Bashi,"Manchester, UK"
+Manhattan,Sara Bareilles,"Manhattan, New York"
+Marietta,Upstate,"Georgia, USA"
+Massachusetts,Handsome Ghost,Massachusetts
+Massachusetts,Ra Ra Riot,Massachusetts
+Messina,Modern Pleasure,"Messina, Sicily"
+Montana,Youth Lagoon,Montana
+Montreal,Wylen,"Montreal, Canada"
+Morocco,Moon Taxi,Morocco
+Moscow,Autoheart,"Moscow, Russia"
+Moving to New York,The Wombats,"New York, New York"
+Mykonos,Fleet Foxes,"Mykonos, Greece"
+Nantes,Beirut,"Nantes, France"
+Nashville,David Mead,"Nashville, Tenessee"
+NEW DORP. NEW YORK,"SBTRKT, Ezra Koenig","New York, New York"
+New Orleans,Parachute,"New Orleans, Louisiana"
+New York,Urban Cone,"New York, New York"
+"New York, New York II",Glassio,"New York, New York"
+Norway,The Paper Tigers,Norway
+Norway,The Brummies,Norway
+NYC Girl,The Orion Experience,"New York, New York"
+Ohio,The Hussey Brothers,Ohio
+Ohio,Ginger root,Ohio
+Ohio,King Princess,Ohio
+Okinawa,Sure Sure,"Okinawa, Japan"
+Oslo,De Joie,"Oslo, Norway"
+Oxford Town,Bob Dylan,"Oxford, UK"
+Pasadena,Young Mister,"Pasadena, California"
+Pompeii,Bastille,"Pompeii, Italy"
+Pulaski at Night,Andrew Bird,"Chicago, Illinois"
+Rio,MIKA,"Rio, Brazil"
+Rio ,orangutang,"Rio, Brazil"
+San Francisco,"YOG$, Caroline Pennell","San Francisco, California"
+Santa Fe,Autoheart,"Santa Fe, New Mexico"
+Savannah,Relient K,"Savannah, Georgia"
+Seattle,Jason Walker,"Seattle, Washington"
+Sedona,Houndmouth,"Sedona, Arizona"
+Sierra Leone,Frank Ocean,Sierra Leone
+The Mariana,Everything Everything,Mariana Trench
+The Only Living Boy in New York,Simon & Garfunkel,"New York, New York"
+Tropic of Cancer,Minor Poet,Tropic of Cancer
+Vegas Girl,Conor Maynard,"Las Vegas, Nevada"
+Vienna,Billy Joel,"Vienna, Austria"
+Visions of China,The Lumineers,China
+Walden Pond,Atta Boy,"Walden Pond, Massachusetts"
+Washington Square Park,Tor Miller,"Washington Square Park, New York City"
+Welcome to New York,Taylor Swift,"New York, New York"
+Wilson State Park,Elijah Wolf,"Wilson State Park, Kansas"
+Yellowstone,S. Carey,Yellowstone National Park
