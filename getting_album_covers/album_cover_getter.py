@@ -40,7 +40,7 @@ def get_songs():
 # making my fun html page :)
 html_imgs = []
 for img in img_urls:
-	html_imgs.append(f'<img src={img} style="width: 25vw">')
+	html_imgs.append(f'<img src={img} style="width: 25vw;height: 25vw">')
 
 html = '''
 <!DOCTYPE html>
